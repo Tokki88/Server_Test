@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
         'public',
         req.url === '/' ? 'home.html' :  req.url
     );
-    
+    console.log(filePath);
 
     let extname = path.extname(filePath);
     // initial content type
