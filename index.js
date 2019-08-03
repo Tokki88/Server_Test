@@ -6,11 +6,12 @@ const server = http.createServer((req, res) => {
     // Build File Path
     let filePath = path.join(
         __dirname,
-        'public',
+        'Public',
         req.url === '/' ? 'home.html' :  req.url
     );
     console.log(filePath);
-
+    var os = require('os');
+ 
     let extname = path.extname(filePath);
     // initial content type
     let contentType = 'text/html';
