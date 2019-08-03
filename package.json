@@ -1,0 +1,19 @@
+{
+  "name": "server_test",
+  "version": "1.0.0",
+  "description": "test of server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Chris Nelms",
+  "license": "ISC",
+  "dependencies": {
+    "git": "^0.1.5",
+    "uuid": "^3.3.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
